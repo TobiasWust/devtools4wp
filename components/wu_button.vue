@@ -1,5 +1,5 @@
 <template>
-    <a href="https://www.digistore24.com/product/238289" class="myButton">Jetzt bestellen</a> 
+    <div id="test"><a href="https://www.digistore24.com/product/238289" class="wuButton">Jetzt bestellen</a></div>
 </template>
 
 <script>
@@ -9,8 +9,8 @@ export default {
 </script>
 
 <style scoped>
-.myButton {
-  margin: 4em;
+.wuButton {
+  z-index: 100;
   width: 30%;
   box-shadow: 0px 10px 14px -7px #3e7327;
   background: linear-gradient(to bottom, #ffdd54 5%, #ffcc00 100%);
@@ -25,13 +25,14 @@ export default {
   text-decoration: none;
   text-shadow: 0px 1px 0px #5b8a3c;
 }
-.myButton:hover {
+.wuButton:hover {
   background: linear-gradient(to bottom, #ffcc00 5%, #ffdd54 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
   background-color: #72b352;
 }
-.myButton:active {
-  position: relative;
-  top: 1px;
+
+#test {
+  position: sticky;
+  top: 10px;
 }
 </style>

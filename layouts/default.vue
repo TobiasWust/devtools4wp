@@ -29,11 +29,6 @@ export default {
 </script>
 
 <style>
-html,
-body {
-  overflow-x: hidden;
-}
-
 .page-enter-active,
 .page-leave-active {
   transition: all 0.3s ease;
@@ -55,9 +50,19 @@ body {
   margin: 0;
   font-family: "Roboto", "sans-serif";
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #111;
   color: #999;
   font-size: 130%;
+
+  background-image: url("~/assets/img/background_sw.png");
+  /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 60% 0;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
 }
 h1 {
   color: #111;
@@ -78,7 +83,7 @@ hr {
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    #3dba6a,
+    #ffcc00,
     rgba(0, 0, 0, 0)
   );
   width: 30%;
@@ -89,11 +94,12 @@ hr {
   background-color: #eee;
 }
 
-.wrapper {
+header {
   background-image: url("~/assets/img/background.png");
   /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
   background-repeat: no-repeat;
   background-position: 60% 0;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -120,11 +126,11 @@ footer {
 
 a {
   color: #999;
-  text-decoration-color: #3dba6a;
+  text-decoration-color: #ffcc00;
 }
 
 a:hover {
-  color: #3dba6a;
+  color: #ffcc00;
 }
 
 .material {

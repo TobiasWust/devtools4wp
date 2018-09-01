@@ -1,8 +1,8 @@
 <template>
   <div :class="{ 'indexnav' : (page === 'index') }">
-    <nuxt-link exact to="/privacy/">Datenschutz</nuxt-link> |
-    <nuxt-link exact to="/legal/">AGB</nuxt-link> |
-    <nuxt-link exact to="/imprint/">Impressum</nuxt-link>
+    <nuxt-link exact to="/datenschutz/">Datenschutz</nuxt-link> |
+    <nuxt-link exact to="/AGB/">AGB</nuxt-link> |
+    <nuxt-link exact to="/impressum/">Impressum</nuxt-link>
   </div>
 </template>
 
@@ -29,7 +29,7 @@ a {
 }
 div {
   text-align: center;
-  background-color: #3dba6a;
+  background-color: #ffcc00;
   color: white;
   transition: all 1s ease;
 }

@@ -1,7 +1,7 @@
 <template>
 <div>
   <div id="eyecatcher">
-    <h1>Devtools4WP</h1>
+    <h1><a href="/">Devtools4WP</a></h1>  
     <span class="undertext">Nutze ganz einfach die Chrome Devtools für Wordpress!</span>
     <wu_button/>
   </div>  
@@ -22,11 +22,12 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h1 a {
   font-size: 10vw;
   animation: rotate 90s 0s infinite alternate;
   color: #ffcc00;
   text-shadow: 1px 1px 2px #111;
+  text-decoration: none;
 }
 
 .undertext {
@@ -46,7 +47,6 @@ h1 {
 }
 
 #eyecatcher {
-  padding-top: 10vh;
   text-align: center;
   height: 100vh;
   display: flex;
