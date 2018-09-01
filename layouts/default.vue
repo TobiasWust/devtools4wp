@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <header class="header"><navigation/></header>
+      <header class="header"><eyecatcher/></header>
       <article class="content"  :class="{ 'contentbg' : (page !== 'index') }">      
           <nuxt/>
       </article>
@@ -11,7 +11,7 @@
 
 <script>
 import cookienotice from "~/components/cookienotice.vue";
-import navigation from "~/components/navigation.vue";
+import eyecatcher from "~/components/eyecatcher.vue";
 import wu_footer from "~/components/wu_footer.vue";
 import { mapState } from "vuex";
 
@@ -21,7 +21,7 @@ export default {
   },
   components: {
     cookienotice,
-    navigation,
+    eyecatcher,
     wu_footer
   },
   computed: mapState(["page"])
