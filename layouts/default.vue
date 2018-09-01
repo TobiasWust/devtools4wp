@@ -53,9 +53,9 @@ body {
 
 body {
   margin: 0;
-  font-family: "Work Sans", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   background-repeat: no-repeat;
-  background-color: #111;
+  background-color: white;
   color: #999;
   font-size: 130%;
 }
@@ -69,7 +69,7 @@ h2 {
 }
 h1,
 h2 {
-  font-family: "Vidaloka", "serif";
+  font-family: "Neuton", "serif";
 }
 
 hr {
@@ -90,8 +90,8 @@ hr {
 }
 
 .wrapper {
-  /* background-image: url("~/assets/img/background.jpg"); dev */
-  background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg");
+  background-image: url("~/assets/img/background.png");
+  /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
   background-repeat: no-repeat;
   background-position: 60% 0;
   display: flex;
