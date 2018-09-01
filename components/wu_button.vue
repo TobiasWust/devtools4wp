@@ -11,7 +11,9 @@ export default {
 <style scoped>
 .wuButton {
   z-index: 100;
+  white-space: nowrap;
   width: 30%;
+  min-width: 200px;
   box-shadow: 0px 10px 14px -7px #3e7327;
   background: linear-gradient(to bottom, #ffdd54 5%, #ffcc00 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
