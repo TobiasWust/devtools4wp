@@ -109,6 +109,7 @@ export default {
 }
 
 #window5 {
+  z-index: -1;
   margin: 3em;
   transition: all 1s ease;
   transform: perspective(1000px) rotateY(20deg);
