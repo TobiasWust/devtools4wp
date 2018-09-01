@@ -13,7 +13,6 @@
 import cookienotice from "~/components/cookienotice.vue";
 import navigation from "~/components/navigation.vue";
 import wu_footer from "~/components/wu_footer.vue";
-import VueMarkdown from "vue-markdown";
 import { mapState } from "vuex";
 
 export default {
@@ -23,8 +22,7 @@ export default {
   components: {
     cookienotice,
     navigation,
-    wu_footer,
-    VueMarkdown
+    wu_footer
   },
   computed: mapState(["page"])
 };
