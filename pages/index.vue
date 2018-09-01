@@ -56,7 +56,6 @@ export default {
 #wrap {
   display: flex;
   flex-direction: column;
-  padding: 3em;
   align-items: center;
 }
 
@@ -64,6 +63,7 @@ export default {
   padding: 1em;
   background-color: white;
   width: 60%;
+  min-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -75,6 +75,7 @@ export default {
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 60%;
+  min-width: 300px;
   display: flex;
   align-self: flex-end;
 }
@@ -87,6 +88,7 @@ export default {
   z-index: -1;
   transform: rotateZ(-5deg);
   width: 40%;
+  min-width: 300px;
   margin: 4em;
   color: white;
   background-color: #111;
@@ -117,6 +119,7 @@ export default {
   text-shadow: 1px 1px 2px #111;
   padding: 1em;
   width: 60%;
+  min-width: 300px;
   align-self: flex-start;
 }
 
