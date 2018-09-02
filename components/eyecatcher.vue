@@ -22,9 +22,11 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  animation: rotate 90s infinite alternate;
+}
 h1 a {
   font-size: 10vw;
-  animation: rotate 90s 0s infinite alternate;
   color: #ffcc00;
   text-shadow: 1px 1px 2px #111;
   text-decoration: none;
