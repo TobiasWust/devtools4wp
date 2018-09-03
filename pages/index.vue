@@ -104,7 +104,7 @@ export default {
 
 #window3 {
   z-index: -1;
-  transform: rotateZ(deg);
+  transform: rotateZ(-5deg);
   width: 40%;
   min-width: 300px;
   color: white;
