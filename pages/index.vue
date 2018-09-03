@@ -2,8 +2,10 @@
 <div id="wrap">
   <div id="window1">
     <h2>Ein Kurs f&uuml;r jeden!</h2>
-    <p>Lerne auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen.</p>
+    <p>Lerne in diesem zwei stündigen Videokurs auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen.</p>
   </div>
+
+    <div class="sticky"><wu_button/></div>
 
   <div class="row">
     <div id="window3">
@@ -23,8 +25,6 @@
       </ul>
     </div>
   </div>
-  
-  <div class="sticky"><wu_button/></div>
 
   <div id="window4">
     <h2>Perfekt<br/> für deinen<br/> Start als</h2>
@@ -73,6 +73,7 @@ export default {
 }
 
 #window1 {
+  text-align: justify;
   margin-top: 1em;
   padding: 1em;
   background-color: white;
@@ -87,19 +88,16 @@ export default {
   flex-wrap: wrap;
 }
 #window2 {
-  transition: all 1s ease;
+  z-index: -1;
   transform: perspective(700px) rotateY(-20deg);
-  background-color: #ffefad;
+  /* background-color: #ffefad; */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 40%;
   min-width: 300px;
   display: flex;
   margin-top: 4em;
-}
-
-#window2:hover {
-  transform: rotateY(0);
 }
 
 #window3 {

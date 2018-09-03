@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style scoped>
+div {
+  margin-top: 4em;
+}
 .nuxt-link-active {
   color: #111;
 }

@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 h1 {
-  animation: rotate 90s linear infinite alternate;
+  animation: rotate 200s linear infinite alternate;
 }
 h1 a {
   font-size: 10vw;
