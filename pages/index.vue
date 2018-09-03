@@ -1,7 +1,7 @@
 <template>
 <div id="wrap">
   <div id="window1">
-    <p><strong>Ein Kurs f&uuml;r jeden!</strong></p>
+    <h2>Ein Kurs f&uuml;r jeden!</h2>
     <p>Lerne auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen.</p>
   </div>
 
@@ -104,7 +104,7 @@ export default {
 
 #window3 {
   z-index: -1;
-  transform: rotateZ(-5deg);
+  transform: rotateZ(deg);
   width: 40%;
   min-width: 300px;
   color: white;

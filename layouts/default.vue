@@ -51,7 +51,7 @@ body {
   font-family: "Roboto", "sans-serif";
   background-repeat: no-repeat;
   background-color: #111;
-  color: #999;
+  color: #111;
   font-size: 130%;
 
   background-image: url("~/assets/img/background_sw.png");

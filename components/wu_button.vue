@@ -1,5 +1,5 @@
 <template>
-    <a href="https://www.digistore24.com/product/238289" class="wuButton">Jetzt bestellen</a>
+    <a href="https://www.digistore24.com/product/238289" class="wuButton">Jetzt anfangen! | 14,99€</a>
 </template>
 
 <script>

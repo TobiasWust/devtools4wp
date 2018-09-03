@@ -1,7 +1,7 @@
 <template>
   <div id="eyecatcher">
-    <h1><a href="/">Devtools4WP</a></h1>  
-    <span class="undertext">Nutze ganz einfach die Chrome Devtools für Wordpress!</span>
+    <h1><a href="/" class="yellow">Devtools<span class="black">4</span>WP</a></h1>  
+    <span class="undertext black">Nutze ganz <span class="yellow">einfach</span> die Chrome Devtools für Wordpress!</span>
     <wu_button/>
   </div>  
 </template>
@@ -25,24 +25,29 @@ h1 {
 }
 h1 a {
   font-size: 10vw;
-  color: #ffcc00;
-  text-shadow: 1px 1px 2px #111;
   text-decoration: none;
+}
+.yellow {
+  color: #ffcc00;
+  text-shadow: 2px 2px 2px #111;
+}
+
+.black {
+  color: #111;
+  text-shadow: 2px 2px 2px #ffcc00;
 }
 
 .undertext {
-  color: #111;
   font-weight: bold;
   font-size: 2em;
-  text-shadow: 1px 1px 2px #ffcc00;
 }
 
 @keyframes rotate {
   from {
-    transform: rotateY(50deg) rotateZ(-5deg);
+    transform: perspective(1000px) rotateY(50deg) rotateZ(-5deg);
   }
   to {
-    transform: rotateY(-50deg) rotateZ(+5deg);
+    transform: perspective(1000px) rotateY(-50deg) rotateZ(+5deg);
   }
 }
 
