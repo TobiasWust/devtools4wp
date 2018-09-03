@@ -2,7 +2,7 @@
 <div id="wrap">
   <div id="window1">
     <h2>Ein Kurs f&uuml;r jeden!</h2>
-    <p>Lerne in diesem zwei stündigen Videokurs auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen.</p>
+    <p>Lerne in diesem <strong>zwei stündigen Videokurs</strong> auch als Beginner, wie du ganz <strong>einfach</strong> die Chrome Devtools benutzen kannst, um dein <strong>Wordpress Theme nach deinen Vorstellungen zu stylen</strong>.</p>
   </div>
 
     <div class="sticky"><wu_button/></div>
@@ -17,9 +17,9 @@
       <h2>Was werde ich lernen?</h2>
       <ul>
       <li>&Uuml;berblick &uuml;ber die Chrome Developer Tools</li>
-      <li>Erstelle eine HTML5 Seite und gestalte sie mithilfe der Devtools</li>
+      <li>Erstelle eine HTML5 Seite und gestalte sie mit Hilfe der Devtools</li>
       <li>&Uuml;bertrage die gelernten Konzepte auf ein Wordpress Theme</li>
-      <li>Devtools Benutzen, um CSS besser zu verstehen</li>
+      <li>Devtools benutzen, um CSS besser zu verstehen</li>
       <li>Verstehe das Boxmodel</li>
       <li>Animationen f&uuml;r eine lebendige moderne Website</li>
       </ul>
@@ -91,10 +91,10 @@ export default {
   z-index: -1;
   transform: perspective(700px) rotateY(-20deg);
   /* background-color: #ffefad; */
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255);
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 40%;
+  width: 50%;
   min-width: 300px;
   display: flex;
   margin-top: 4em;
@@ -103,7 +103,7 @@ export default {
 #window3 {
   z-index: -1;
   transform: rotateZ(-5deg);
-  width: 40%;
+  width: 30%;
   min-width: 300px;
   color: white;
   background-color: #111;
@@ -128,7 +128,7 @@ export default {
 
 .sticky {
   position: sticky;
-  top: 10px;
+  top: 1em;
   margin-top: 3em;
 }
 
