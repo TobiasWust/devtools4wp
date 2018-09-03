@@ -52,6 +52,18 @@ export default {
     wu_button
   }
 };
+
+  head: {
+    title: "Home",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Lerne auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen."
+      }
+    ]
+  }
 </script>
 
 <style scoped>
