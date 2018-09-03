@@ -2,7 +2,7 @@
 <div id="wrap">
   <div id="window1">
     <h2>Ein Kurs f&uuml;r jeden!</h2>
-    <p>Lerne in diesem <strong>zwei stündigen Videokurs</strong> auch als Beginner, wie du ganz <strong>einfach</strong> die Chrome Devtools benutzen kannst, um dein <strong>Wordpress Theme nach deinen Vorstellungen zu stylen</strong>.</p>
+    <p>Lerne in diesem <strong>zweistündigen Videokurs</strong> auch als Beginner, wie du ganz <strong>einfach</strong> die Chrome Devtools benutzen kannst, um dein <strong>Wordpress Theme nach deinen Vorstellungen zu stylen</strong>.</p>
   </div>
 
     <div class="sticky"><wu_button/></div>
