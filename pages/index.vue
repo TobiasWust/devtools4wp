@@ -5,25 +5,27 @@
     <p>Lerne auch als Beginner, wie du ganz einfach die Chrome Devtools benutzen kannst, um dein Wordpress Theme nach deinen Vorstellungen zu stylen.</p>
   </div>
 
-  <div id="window2">
-    <h2>Was werde ich lernen?</h2>
-    <ul>
-    <li>&Uuml;berblick &uuml;ber die Chrome Developer Tools</li>
-    <li>Erstelle eine HTML5 Seite und gestalte sie mithilfe der Devtools</li>
-    <li>&Uuml;bertrage die gelernten Konzepte auf ein Wordpress Theme</li>
-    <li>Devtools Benutzen, um CSS besser zu verstehen</li>
-    <li>Verstehe das Boxmodel</li>
-    <li>Animationen f&uuml;r eine lebendige moderne Website</li>
-    </ul>
+  <div class="row">
+    <div id="window3">
+      <h2>Du brauchst nur</h2>
+      <p>Grundkenntnisse in HTML und CSS<br />Erste Erfahrungen mit Wordpress</p>    
+    </div>
+    
+    <div id="window2">
+      <h2>Was werde ich lernen?</h2>
+      <ul>
+      <li>&Uuml;berblick &uuml;ber die Chrome Developer Tools</li>
+      <li>Erstelle eine HTML5 Seite und gestalte sie mithilfe der Devtools</li>
+      <li>&Uuml;bertrage die gelernten Konzepte auf ein Wordpress Theme</li>
+      <li>Devtools Benutzen, um CSS besser zu verstehen</li>
+      <li>Verstehe das Boxmodel</li>
+      <li>Animationen f&uuml;r eine lebendige moderne Website</li>
+      </ul>
+    </div>
   </div>
   
-  <wu_button/>
+  <div class="sticky"><wu_button/></div>
 
-  <div id="window3">
-    <h2>Du brauchst nur</h2>
-    <p>Grundkenntnisse in HTML und CSS<br />Erste Erfahrungen mit Wordpress</p>
-    
-  </div>
   <div id="window4">
     <h2>Perfekt<br/> für deinen<br/> Start als</h2>
     <ul><li>Virtuelle Assistenz</li>
@@ -60,24 +62,29 @@ export default {
 }
 
 #window1 {
+  margin-top: 1em;
   padding: 1em;
   background-color: white;
   width: 60%;
   min-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 #window2 {
-  margin: 3em;
   transition: all 1s ease;
   transform: perspective(700px) rotateY(-20deg);
   background-color: #ffefad;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 60%;
+  width: 40%;
   min-width: 300px;
   display: flex;
-  align-self: flex-end;
+  margin-top: 4em;
 }
 
 #window2:hover {
@@ -89,16 +96,16 @@ export default {
   transform: rotateZ(-5deg);
   width: 40%;
   min-width: 300px;
-  margin: 4em;
   color: white;
   background-color: #111;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  align-self: flex-start;
   font-weight: bold;
+  margin-top: 4em;
 }
 
 #window4 {
+  margin-top: 3em;
   display: flex;
   align-items: center;
   padding: 1em;
@@ -110,20 +117,20 @@ export default {
   list-style-type: circle;
 }
 
+.sticky {
+  position: sticky;
+  top: 10px;
+  margin-top: 3em;
+}
+
 #window5 {
   z-index: -1;
-  margin: 3em;
   transition: all 1s ease;
   transform: perspective(1000px) rotateY(20deg);
   color: white;
   text-shadow: 1px 1px 2px #111;
-  padding: 1em;
-  width: 60%;
+  width: 80%;
   min-width: 300px;
-  align-self: flex-start;
-}
-
-#window5:hover {
-  transform: rotateY(0);
+  margin-top: 2em;
 }
 </style>
