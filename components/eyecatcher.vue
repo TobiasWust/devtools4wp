@@ -63,8 +63,6 @@ h1 a {
   background-repeat: no-repeat;
   background-position: 60% 0;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   background-size: cover;
 }

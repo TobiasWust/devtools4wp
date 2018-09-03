@@ -49,7 +49,6 @@ export default {
 body {
   margin: 0;
   font-family: "Roboto", "sans-serif";
-  background-repeat: no-repeat;
   background-color: #111;
   color: #111;
   font-size: 130%;
