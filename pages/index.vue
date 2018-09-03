@@ -50,9 +50,7 @@ export default {
   },
   components: {
     wu_button
-  }
-};
-
+  },
   head: {
     title: "Home",
     meta: [
@@ -64,6 +62,7 @@ export default {
       }
     ]
   }
+};
 </script>
 
 <style scoped>
