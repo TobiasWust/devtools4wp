@@ -109,11 +109,11 @@ export default {
   background-color: #111;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-weight: bold;
   margin-top: 4em;
 }
 
 #window4 {
+  font-weight: bold;
   margin-top: 3em;
   display: flex;
   align-items: center;
