@@ -48,7 +48,6 @@ h1 a {
 
 #eyecatcher {
   text-align: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -61,7 +60,7 @@ h1 a {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
 }
 </style>
