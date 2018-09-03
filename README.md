@@ -1,8 +1,9 @@
-# tobiaswust
+# Devtools4WP
 
 > Website von Tobias Wust
 Built with nuxt and love
 hosted on netlify <3
+<https://www.devtools4wp.de>
 <https://www.tobiaswust.de>
 
 ## Build Setup

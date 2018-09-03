@@ -1,5 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
-https://tobiaswust.netlify.com/* https://www.tobiaswust.de/:splat 301!
+https://devtools4wp.netlify.com/* https://www.devtools4wp.de/:splat 301!
 
 # These extra rules are required because HTTPS is not forced
-http://tobiaswust.netlify.com/* https://www.tobiaswust.de/:splat 301!
+http://devtools4wp.netlify.com/* https://www.devtools4wp.de/:splat 301!
