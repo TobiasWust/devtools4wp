@@ -1,7 +1,7 @@
 <template>
   <div :class="{ 'indexnav' : (page === 'index') }">
     <nuxt-link exact to="/datenschutz/">Datenschutz</nuxt-link> |
-    <nuxt-link exact to="/AGB/">AGB</nuxt-link> |
+    <!-- <nuxt-link exact to="/AGB/">AGB</nuxt-link> | -->
     <nuxt-link exact to="/impressum/">Impressum</nuxt-link>
   </div>
 </template>
