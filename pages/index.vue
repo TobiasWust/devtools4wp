@@ -88,7 +88,7 @@ export default {
   flex-wrap: wrap;
 }
 #window2 {
-  z-index: 0;
+  z-index: -1;
   transform: perspective(700px) rotateY(-20deg);
   /* background-color: #ffefad; */
   background-color: rgba(255, 255, 255);
@@ -101,7 +101,7 @@ export default {
 }
 
 #window3 {
-  z-index: -1;
+  z-index: 0;
   transform: rotateZ(-5deg);
   width: 30%;
   min-width: 300px;
