@@ -90,7 +90,6 @@ export default {
 }
 #window2 {
   transform: perspective(700px) rotateY(-20deg);
-  /* background-color: #ffefad; */
   background-color: rgba(255, 255, 255);
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -101,6 +100,17 @@ export default {
 }
 
 #window3 {
+  transform: perspective(700px) rotateY(-20deg);
+  background-color: rgba(255, 255, 255);
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  min-width: 300px;
+  display: flex;
+  margin-top: 4em;
+}
+
+#window6 {
   transform: rotateZ(-5deg);
   width: 30%;
   min-width: 300px;
