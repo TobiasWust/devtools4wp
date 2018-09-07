@@ -36,14 +36,28 @@ body {
   color: #111;
   font-size: 130%;
 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
   background-image: url("~/assets/img/background_sw.png");
   /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
   background-repeat: no-repeat;
   background-position: 60% 0;
   background-attachment: fixed;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
