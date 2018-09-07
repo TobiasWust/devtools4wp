@@ -49,7 +49,7 @@ body:before {
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: -10;
+  z-index: -20;
   background-image: url("~/assets/img/background_sw.png");
   /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
   background-repeat: no-repeat;
