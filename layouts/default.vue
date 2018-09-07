@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-      <header class="header"><eyecatcher/></header>
-      <article class="content"  :class="{ 'contentbg' : (page !== 'index') }">      
+      <header><eyecatcher/></header>
+      <article class="content">      
           <nuxt/>
       </article>
     <footer class="footer"><wu_footer/></footer>
@@ -29,23 +29,6 @@ export default {
 </script>
 
 <style>
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.3s ease;
-}
-
-.page-enter,
-.page-leave-to {
-  opacity: 0;
-  transform: translateX(100%);
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: "Roboto", "sans-serif";
@@ -87,11 +70,6 @@ hr {
     rgba(0, 0, 0, 0)
   );
   width: 30%;
-}
-
-.contentbg {
-  transition: all 1s ease;
-  background-color: #eee;
 }
 
 /* Medium screens */

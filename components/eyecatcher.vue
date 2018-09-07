@@ -51,6 +51,16 @@ h1 a {
   }
 }
 
+@media all and (max-device-width: 1024px) {
+     /* 
+     overwrite property for devices with 
+     screen width of 1024px or smaller  
+     */
+     #eyecatcher {
+          background: none;
+     }
+}
+
 #eyecatcher {
   text-align: center;
   display: flex;
