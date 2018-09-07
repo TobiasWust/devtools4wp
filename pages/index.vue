@@ -104,7 +104,7 @@ export default {
   background-color: rgba(255, 255, 255);
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 50%;
+  width: 30%;
   min-width: 300px;
   display: flex;
   margin-top: 4em;
