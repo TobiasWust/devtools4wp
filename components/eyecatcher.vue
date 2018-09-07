@@ -66,4 +66,10 @@ h1 a {
   min-height: 100vh;
   background-size: cover;
 }
+
+@media (max-width: 1024px) {
+  #eyecatcher {
+    background: none;
+  }
+}
 </style>

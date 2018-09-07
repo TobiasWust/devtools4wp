@@ -43,7 +43,7 @@ body {
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
 }
 
@@ -70,13 +70,6 @@ hr {
     rgba(0, 0, 0, 0)
   );
   width: 30%;
-}
-
-/* Medium screens */
-@media all and (max-width: 1440px) {
-  .wrapper {
-    background-size: auto;
-  }
 }
 
 .content {
