@@ -24,6 +24,7 @@ export default {
   padding: 0.5em 2em;
   text-decoration: none;
   text-shadow: 0px 1px 0px #5b8a3c; */
+  margin: 1em;
   white-space: nowrap;
   display: inline-block;
   height: 40px;
