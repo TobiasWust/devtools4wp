@@ -67,9 +67,11 @@ export default {
 
 <style scoped>
 #wrap {
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 80%;
 }
 
 #window1 {
@@ -77,7 +79,6 @@ export default {
   margin-top: 1em;
   padding: 1em;
   background-color: white;
-  width: 60%;
   min-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -89,25 +90,26 @@ export default {
   flex-wrap: wrap;
 }
 #window2 {
-  transform: perspective(700px) rotateY(-20deg);
+  /* transform: perspective(700px) rotateY(-20deg); */
   background-color: rgba(255, 255, 255);
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 50%;
   min-width: 300px;
   display: flex;
   margin-top: 4em;
+  flex-grow: 2;
 }
 
 #window3 {
-  transform: rotateY(0deg);
+  /* transform: rotateY(0deg); */
   color: rgba(255, 255, 255);
   background-color: #111;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 30%;
   min-width: 300px;
   margin-top: 4em;
+  align-self: stretch;
+  flex-grow: 1;
 }
 
 #window4 {

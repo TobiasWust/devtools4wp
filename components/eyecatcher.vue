@@ -1,7 +1,7 @@
 <template>
   <div id="eyecatcher">
     <h1><a href="/" class="yellow">Devtools<span class="black">4</span>WP</a></h1>  
-    <span class="undertext black">Nutze ganz <span class="yellow">einfach</span> die Chrome Devtools für Wordpress!</span>
+    <span class="undertext">Nutze ganz <span class="yellow">einfach</span> die Chrome Devtools für Wordpress!</span>
     <wu_button/>
   </div>  
 </template>
@@ -40,6 +40,10 @@ h1 a {
 .undertext {
   font-weight: bold;
   font-size: 2em;
+  background-color: #000000aa;
+  color: white;
+  border-radius: 10px;
+  padding: 0.25em;
 }
 
 @keyframes rotate {
