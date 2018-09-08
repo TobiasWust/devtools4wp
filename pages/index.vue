@@ -100,8 +100,9 @@ export default {
 }
 
 #window3 {
-  /* color: rgba(255, 255, 255);
-  background-color: #111; */
+  transform: rotateY(0deg);
+  color: rgba(255, 255, 255);
+  background-color: #111;
   padding: 1em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 30%;
