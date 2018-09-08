@@ -55,6 +55,12 @@ body:before {
   background-size: cover;
 }
 
+@media (max-width: 1024px) {
+  #body:before {
+    background-image: url("~/assets/img/background.png");
+  }
+}
+
 h1 {
   color: #111;
   text-align: center;
@@ -81,9 +87,7 @@ hr {
 }
 
 .content {
-  transition: all 1s ease;
   flex: 1;
-  padding: 1em;
 }
 
 footer {

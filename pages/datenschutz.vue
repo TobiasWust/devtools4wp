@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="datenschutz">
     <h1>Datenschutzerklärung</h1>
     <hr>
     <h2>Verantwortliche Stelle</h2>
@@ -269,4 +269,7 @@ export default {
 </script>
 
 <style scoped>
+#datenschutz {
+  background-color: white;
+}
 </style>
