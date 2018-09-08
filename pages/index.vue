@@ -100,6 +100,7 @@ export default {
 }
 
 #window3 {
+  transform: perspective(700px) rotateY(-20deg);
   color: rgba(255, 255, 255);
   background-color: #111;
   padding: 1em;
