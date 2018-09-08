@@ -32,12 +32,9 @@ export default {
 body {
   margin: 0;
   font-family: "Roboto", "sans-serif";
-  background-color: #111;
+  background-color: #fff;
   color: #111;
-  font-size: 130%;
-
-  display: flex;
-  flex-direction: column;
+  /* font-size: 130%; */
   min-height: 100vh;
 }
 
