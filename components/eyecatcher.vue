@@ -43,6 +43,7 @@ h1 a {
   background-color: #000000aa;
   color: white;
   border-radius: 10px;
+  max-width: 90%;
   padding: 0.25em;
 }
 
