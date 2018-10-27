@@ -36,17 +36,6 @@ body {
   color: #111;
   /* font-size: 130%; */
   min-height: 100vh;
-}
-
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -20;
   background-image: url("~/assets/img/background_sw.png");
   /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
   background-repeat: no-repeat;
@@ -56,16 +45,8 @@ body:before {
 }
 
 @media (max-width: 1024px) {
-  /* body:before {
-    background-image: url("~/assets/img/background.png");
-  } */
   body {
-    background-image: url("~/assets/img/background.png");
-    /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
-    background-repeat: no-repeat;
-    background-position: 60% 0;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #fc0;
   }
 }
 

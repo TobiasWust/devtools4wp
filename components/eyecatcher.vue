@@ -71,9 +71,9 @@ h1 a {
   background-size: cover;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #eyecatcher {
     background: none;
   }
-}
+} */
 </style>
