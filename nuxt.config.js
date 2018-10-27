@@ -12,7 +12,8 @@ module.exports = {
       { name: 'googlebot', content: 'index,follow' },
       { hid: 'description', name: 'description', content: 'Devtools4WP' },
       { hid: 'keywords', name: 'keywords', content: 'Chrome, devtools, wp, wordpress, developer, tools, css, html, css3, html5, webdesign' },
-
+      { hid: 'keywords', name: 'keywords', content: 'Chrome, devtools, wp, wordpress, developer, tools, css, html, css3, html5, webdesign' },
+      { name: 'og:image', content: '/icon.png' },
     ],
     htmlAttrs: {
       lang: 'de'

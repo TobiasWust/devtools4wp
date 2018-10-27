@@ -38,7 +38,7 @@
       <h2>Kostenlose Vorschau</h2>
       <p>Ich habe für dich die <strong><a href="https://youtu.be/pZ1RaFIdeSY" target="_blank">ersten 5 Videos auf Youtube</a></strong> gestellt. Guck sie dir doch mal an und entscheide dann!</p>
       <a href="https://youtu.be/pZ1RaFIdeSY" target="_blank">
-        <img src="https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540666605/devtools4wp/devtools4wp_youtube.png" />
+        <img alt="Youtube Vorschau" src="https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540666605/devtools4wp/devtools4wp_youtube.png" />
       </a>
       <p><small>Wenn du auf das Bild klickst öffnest du Youtube in einem neuen Fenster</small></p>
     </section>
