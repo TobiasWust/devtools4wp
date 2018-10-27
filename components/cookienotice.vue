@@ -12,7 +12,7 @@
 export default {
   data() {
     return {
-      cookies: true
+      cookies: false
     };
   },
   methods: {
@@ -23,7 +23,7 @@ export default {
     getCookie: function() {
       if (document.cookie.includes("cookienotice=accepted")) {
         this.cookies = false;
-      }
+      } else this.cookies = true;
     }
   },
   mounted: function() {
@@ -66,5 +66,9 @@ button:hover {
 .fade-leave-to {
   opacity: 0;
   transform: scale(0);
+}
+
+a {
+  color: #eee;
 }
 </style>
