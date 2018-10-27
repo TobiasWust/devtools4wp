@@ -96,7 +96,7 @@ footer {
 }
 
 a {
-  color: #999;
+  color: #111;
   text-decoration-color: #ffcc00;
 }
 

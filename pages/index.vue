@@ -36,7 +36,7 @@
 
     <section id="youtube">
       <h2>Kostenlose Vorschau</h2>
-      <p>Ich habe für dich die ersten 5 Videos des Kurses kostenlos auf Youtube gestellt. Guck sie dir doch mal an und entscheide dann!</p>
+      <p>Ich habe für dich die <strong><a href="https://youtu.be/pZ1RaFIdeSY" target="_blank">ersten 5 Videos auf Youtube</a></strong> gestellt. Guck sie dir doch mal an und entscheide dann!</p>
       <a href="https://youtu.be/pZ1RaFIdeSY" target="_blank">
         <img src="https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540666605/devtools4wp/devtools4wp_youtube.png" />
       </a>
@@ -67,7 +67,8 @@ export default {
     wu_inhalt
   },
   head: {
-    title: "Home",
+    //title: "Home",
+    titleTemplate: "Devtools4WP - Nutze die Chome Devtools für Wordpress",
     meta: [
       {
         hid: "description",
@@ -169,7 +170,6 @@ export default {
   color: white;
   text-shadow: 1px 1px 2px #111;
   min-width: 300px;
-  margin-top: 2em;
   background-color: #111;
   flex-direction: column;
   align-items: center;
