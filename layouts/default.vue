@@ -29,10 +29,14 @@ export default {
 </script>
 
 <style>
+html {
+  overflow-x: hidden;
+}
 body {
+  overflow-x: hidden;
   margin: 0;
   font-family: "Roboto", "sans-serif";
-  background-color: #fc0;
+  background-color: #282828;
   color: #111;
   /* font-size: 130%; */
   min-height: 100vh;
@@ -46,8 +50,7 @@ body {
 
 @media (max-width: 1024px) {
   body {
-    background: none;
-    background-color: #fc0;
+    background-image: none;
   }
 }
 
