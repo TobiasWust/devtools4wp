@@ -30,7 +30,8 @@ export default {
 
 <style>
 body {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   margin: 0;
   font-family: "Roboto", "sans-serif";
   background-color: #fff;
