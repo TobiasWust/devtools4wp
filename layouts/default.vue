@@ -45,7 +45,7 @@ body:before {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: -20;
   background-image: url("~/assets/img/background_sw.png");
@@ -56,11 +56,11 @@ body:before {
   background-size: cover;
 }
 
-/* @media (max-width: 1024px) {
-  #body:before {
+@media (max-width: 1024px) {
+  body:before {
     background-image: url("~/assets/img/background.png");
   }
-} */
+}
 
 h1 {
   color: #111;
