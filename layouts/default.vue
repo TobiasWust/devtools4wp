@@ -30,12 +30,9 @@ export default {
 
 <style>
 body {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  position: absolute;
   margin: 0;
   font-family: "Roboto", "sans-serif";
-  background-color: #111;
+  background-color: #fc0;
   color: #111;
   /* font-size: 130%; */
   min-height: 100vh;
@@ -56,20 +53,6 @@ body:before {
   background-position: 60% 0;
   background-attachment: fixed;
   background-size: cover;
-}
-
-body::-webkit-scrollbar {
-  width: 12px;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-}
-
-body::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1024px) {
