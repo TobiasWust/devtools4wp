@@ -30,6 +30,7 @@ export default {
 
 <style>
 body {
+  overflow: scroll;
   margin: 0;
   font-family: "Roboto", "sans-serif";
   background-color: #fff;
@@ -55,11 +56,11 @@ body:before {
   background-size: cover;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #body:before {
     background-image: url("~/assets/img/background.png");
   }
-}
+} */
 
 h1 {
   color: #111;
