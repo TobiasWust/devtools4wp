@@ -70,9 +70,9 @@ h1 a {
   background-size: cover;
 }
 
-/* @media (max-width: 1024px) {
-  #eyecatcher {
-    background: none;
+@media (max-width: 1024px) {
+  h1 a {
+    font-size: 20vw;
   }
-} */
+}
 </style>

@@ -92,12 +92,6 @@ export default {
   width: 80%;
 }
 
-@media (max-width: 1024px) {
-  #wrap {
-    width: 100%;
-  }
-}
-
 #shortsummary {
   margin-top: 2em;
   width: 100%;
@@ -112,6 +106,17 @@ export default {
   margin-right: auto;
   width: 50%;
 }
+
+@media (max-width: 1024px) {
+  #wrap {
+    width: 100%;
+  }
+  #shortsummary h2,
+  #shortsummary p {
+  width: 100%;
+  }
+}
+
 .row {
   display: flex;
   align-items: center;
