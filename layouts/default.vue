@@ -32,9 +32,10 @@ export default {
 body {
   overflow-y: scroll;
   overflow-x: hidden;
+  position: absolute;
   margin: 0;
   font-family: "Roboto", "sans-serif";
-  background-color: #fff;
+  background-color: #111;
   color: #111;
   /* font-size: 130%; */
   min-height: 100vh;
@@ -62,18 +63,26 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
 body::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1024px) {
-  body:before {
+  /* body:before {
     background-image: url("~/assets/img/background.png");
+  } */
+  body {
+    background-image: url("~/assets/img/background.png");
+    /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
+    background-repeat: no-repeat;
+    background-position: 60% 0;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
 
