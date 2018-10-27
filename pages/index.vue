@@ -34,6 +34,17 @@
       </ul>
     </section>
 
+    <section id="youtube">
+      <h2>Kostenlose Vorschau</h2>
+      <p>Ich habe für dich die ersten 5 Videos des Kurses kostenlos auf Youtube gestellt. Guck sie dir doch mal an und entscheide dann!</p>
+      <a href="https://youtu.be/pZ1RaFIdeSY" target="_blank">
+        <img src="https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540666605/devtools4wp/devtools4wp_youtube.png" />
+      </a>
+      <p><small>Wenn du auf das Bild klickst öffnest du Youtube in einem neuen Fenster</small></p>
+    </section>
+  
+  <div class="button"><wu_button/></div>
+  
   <section id="inhalt">
     <h2>Inhalt:</h2>
     <wu_inhalt/>
@@ -75,7 +86,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  /* background-color: rgba(250, 250, 250, 0.5); */
   min-width: 300px;
   width: 80%;
 }
@@ -87,11 +98,18 @@ export default {
 }
 
 #shortsummary {
-  text-align: justify;
-  margin-top: 1em;
+  margin-top: 2em;
+  width: 100%;
   padding: 1em;
+  box-sizing: border-box;
   background-color: white;
   min-width: 300px;
+}
+#shortsummary h2,
+#shortsummary p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .row {
   display: flex;
@@ -100,7 +118,6 @@ export default {
   flex-wrap: wrap;
   width: 100%;
   background-color: #eee;
-  padding: 2em 0;
 }
 #question {
   text-align: justify;
@@ -110,11 +127,9 @@ export default {
   min-width: 300px;
   display: flex;
   justify-content: space-around;
+  transform: rotateZ(-5deg);
 }
-#question div {
-  transform: rotateZ(20deg);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+
 #requirements {
   margin: 0.5em 0;
   /* transform: rotateY(0deg); */
@@ -158,5 +173,35 @@ export default {
   background-color: #111;
   flex-direction: column;
   align-items: center;
+  padding-top: 1em;
+}
+
+#youtube {
+  margin-top: 2em;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #eee;
+  min-width: 300px;
+  text-align: center;
+}
+#youtube img {
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#youtube img:hover {
+  transform: scale(1);
+  transform: rotateZ(1deg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+section,
+.row {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 </style>
