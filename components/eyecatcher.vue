@@ -61,7 +61,6 @@ h1 a {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: none;
   /* background-image: url("~/assets/img/background.png"); */
   background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540672667/devtools4wp/background.png");
   background-repeat: no-repeat;

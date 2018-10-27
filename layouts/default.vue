@@ -46,6 +46,7 @@ body {
 
 @media (max-width: 1024px) {
   body {
+    background: none;
     background-color: #fc0;
   }
 }
