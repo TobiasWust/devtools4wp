@@ -67,12 +67,12 @@ export default {
   list-style: none;
   display: grid;
   grid-row-gap: 1em;
+  grid-column-gap: 3em;
   grid-template-columns: repeat(2, 1fr);
 }
 .counter li {
   padding-top: 0.5em;
   padding-left: 2em;
-  margin-right: 3em;
   position: relative;
   counter-increment: count;
   z-index: 90;
