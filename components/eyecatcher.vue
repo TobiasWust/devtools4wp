@@ -62,8 +62,8 @@ h1 a {
   justify-content: space-around;
   align-items: center;
   background: none;
-  background-image: url("~/assets/img/background.png");
-  /* background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/c_scale,f_auto,q_auto:good,w_1440/v1527682422/tobiaswust.de/IMG_1080.jpg"); */
+  /* background-image: url("~/assets/img/background.png"); */
+  background-image: url("https://res.cloudinary.com/tobiaswust/image/upload/f_auto,q_auto/v1540672667/devtools4wp/background.png");
   background-repeat: no-repeat;
   background-position: 60% 0;
   background-attachment: fixed;
