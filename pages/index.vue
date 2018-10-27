@@ -182,11 +182,11 @@ export default {
   padding: 1em;
   box-sizing: border-box;
   background-color: #eee;
-  min-width: 300px;
   text-align: center;
 }
 #youtube img {
   transform: scale(0.95);
+  max-width: 80vw;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
