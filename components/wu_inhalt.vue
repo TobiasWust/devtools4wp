@@ -72,11 +72,10 @@ export default {
 }
 .counter li {
   padding-top: 0.5em;
-  padding-left: 2em;
+  padding-left: 1.5em;
   position: relative;
   counter-increment: count;
   z-index: 90;
-  border-top: 2px solid #fc0;
 }
 .counter li::before {
   content: counter(count);
@@ -91,10 +90,20 @@ export default {
   text-align: center;
   padding-left: 2.25%;
   left: -1em;
-  top: -0.1em;
+  top: -0.3em;
   height: 1.35em;
   width: 1.35em;
   position: absolute;
   z-index: -1;
+}
+
+.counter li::after {
+  content: "";
+  left: 0;
+  top: -0.2em;
+  width: 90%;
+  position: absolute;
+  z-index: -1;
+  border-top: 2px solid #fc0;
 }
 </style>
