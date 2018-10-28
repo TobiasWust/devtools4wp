@@ -100,7 +100,7 @@ export default {
 .counter li::after {
   content: "";
   left: 0;
-  top: -0.2em;
+  top: -0.3em;
   width: 90%;
   position: absolute;
   z-index: -1;
