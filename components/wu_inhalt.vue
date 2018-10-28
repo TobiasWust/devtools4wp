@@ -75,7 +75,7 @@ export default {
   padding-left: 1.5em;
   position: relative;
   counter-increment: count;
-  z-index: 2;
+  z-index: 1;
 }
 .counter li::before {
   content: counter(count);
